@@ -9,7 +9,7 @@ let candidateName = "";
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question = "Who was the first American woman in space?";
 let correctAnswer = "Sally Ride";
-let candidateAnswer = "78";
+let candidateAnswer = "";
 let questions;
 let correctAnswers;
 let candidateAnswers;
@@ -22,9 +22,8 @@ function askForName() {
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer
-  let temp1 = input.question("Who was the first American woman in space: ");
+  candidateAnswer = input.question("Who was the first American woman in space: ");
   
-  candidateAnswer = temp1;
 
 }
 
