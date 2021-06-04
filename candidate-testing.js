@@ -16,7 +16,7 @@ let candidateAnswers;
 
 
 function askForName() {
-  let candidateName = input.question("What is your name: ");
+  candidateName = input.question("What is your name: ");
   console.log("Hi, " + candidateName + "!");
 }
 
